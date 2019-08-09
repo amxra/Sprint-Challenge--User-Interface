@@ -186,12 +186,12 @@ nav ul li a:hover{
     text-decoration: underline;
 }
 
-.top-content-image{
+.banner-image{
     width: 900px;
     margin: 20px 0;
 }
 
-.top-content-image img{
+.banner-image img{
     width: 100%;
 }
 
@@ -251,4 +251,12 @@ hr{
 
 .bottom-content{
     margin:20px 0;
+}
+
+
+
+/* about page*/
+
+.about-banner-text{
+    margin: 20px;
 }
