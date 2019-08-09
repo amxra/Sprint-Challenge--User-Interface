@@ -294,6 +294,17 @@ hr{
 
 /* contact page */
 
+.contact-section{
+
+    text-align: center;
+}
+
+.contact-section h1{
+    margin-top:100px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
 .contact-body{
     border: 1px solid black;
     border-radius: 20px;
@@ -302,8 +313,7 @@ hr{
     display: flex;
     justify-content: space-around;
     width: 800px;
-    margin: 200px auto;
-    padding: 20px;
+    margin: 0 auto 100px auto;
     align-items: center;
 }
 
