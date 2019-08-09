@@ -149,6 +149,10 @@ footer nav a {
 
 /* My code */
 
+/* body{
+     background-color: black;
+} */
+
 .container{
     width: 900px;
 }
@@ -180,4 +184,14 @@ nav ul li a{
 nav ul li a:hover{
     color: grey;
     text-decoration: underline;
+}
+
+.top-content-image{
+    border: 1px solid red;
+    width: 900px;
+    margin: 20px 0;
+}
+
+.top-content-image img{
+    width: 100%;
 }
