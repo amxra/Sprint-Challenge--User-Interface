@@ -290,3 +290,35 @@ hr{
 .about-bottom-section{
     margin: 20px;
 }
+
+
+/* contact page */
+
+.contact-body{
+    border: 1px solid red;
+    height: 700px;
+    /* make centred */
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: 200px auto;
+    padding: 20px;
+    align-items: center;
+}
+
+address{
+    text-align: center;
+    
+}
+
+.phone-number{
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.contact-form{
+    border: 1px solid orange;
+    height: 500px;
+    width: 500px;
+    background-color: orange;
+}
