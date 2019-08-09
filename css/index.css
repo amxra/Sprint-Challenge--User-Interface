@@ -182,8 +182,31 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: grey;
     text-decoration: underline;
+    animation-name: colourchange;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+    animation delay: 1s;
+    animation-direction: alternate;   
+}
+
+@keyframes colourchange{
+    0% {
+     color: red;
+    }
+    25% {
+        color: grey;
+    }
+    50% {
+        
+        color: orange;
+    }
+    75% {
+         color: grey;
+    }
+    100% {
+        color: grey;
+    }
 }
 
 .banner-image{
@@ -394,5 +417,5 @@ input[type="submit"]{
 }
 
 .last-post{
-    border-bottom-color: white
+    border-bottom-color: white;
 }
