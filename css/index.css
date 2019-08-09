@@ -277,6 +277,10 @@ hr{
 
 /* about page*/
 
+.about-banner-section{
+    border-bottom: 2px dashed black;
+}
+
 .about-banner-text{
     margin: 20px;
 }
