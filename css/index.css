@@ -416,3 +416,13 @@ input[type="submit"]{
 .last-post{
     border-bottom-color: white;
 }
+
+.blog-footer{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 900px;
+    
+}
