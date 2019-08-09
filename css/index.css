@@ -144,3 +144,15 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+/* My code */
+
+.container{
+    width: 900px;
+}
+
+header{
+    border: 1px solid red;
+}
