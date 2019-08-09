@@ -260,3 +260,27 @@ hr{
 .about-banner-text{
     margin: 20px;
 }
+
+.about-information{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.about-information-content{
+    width: 420px;
+    padding: 20px;
+}
+
+.about-information-content-text p, .about-information-content-text h1{
+    margin: 10px 0;
+}
+
+.about-information-content-text button{
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
