@@ -195,3 +195,18 @@ nav ul li a:hover{
 .top-content-image img{
     width: 100%;
 }
+
+.top-content-text{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    padding:10px 20px;
+}
+
+hr{
+    border: 2px dashed black;
+}
+
+.middle-content{
+    
+}
