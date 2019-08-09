@@ -295,11 +295,12 @@ hr{
 /* contact page */
 
 .contact-body{
-    border: 1px solid red;
+    border: 1px solid black;
+    border-radius: 20px;
     height: 700px;
     /* make centred */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 800px;
     margin: 200px auto;
     padding: 20px;
@@ -316,9 +317,34 @@ address{
     font-weight: bold;
 }
 
+
+
 .contact-form{
-    border: 1px solid orange;
+
+    border-radius: 20px;
+    width: 300px;
     height: 500px;
-    width: 500px;
-    background-color: orange;
+    border-color:transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+
+}
+
+.contact-form h1{
+    margin-bottom: 15%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    border-color:black;
+    margin: 10px;
+}
+
+input[type="submit"]{
+    background-color: black;
+    border-color: black;
+    color: white;
+    margin-top: 10px;
 }
